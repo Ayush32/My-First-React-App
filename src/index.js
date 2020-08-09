@@ -22,6 +22,11 @@ const App = () => {
         {labelText}
       </label>
       <input type="text" id="name" />
+      <br />
+      <label className="label" htmlFor="email">
+        Enter Email:
+      </label>
+      <input type="email"></input>
       <button style={{ backgroundColor: "blue", color: "white" }}>
         {buttonText.text}
       </button>
