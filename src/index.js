@@ -27,7 +27,13 @@ const App = () => {
         Enter Email:
       </label>
       <input type="email"></input>
-      <button style={{ backgroundColor: "blue", color: "white" }}>
+      <button
+        style={{
+          backgroundColor: "blue",
+          color: "white",
+          borderRadius: "10px",
+        }}
+      >
         {buttonText.text}
       </button>
     </div>
