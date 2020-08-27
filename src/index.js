@@ -12,11 +12,13 @@ import ReactDOM from "react-dom";
 
 // Create a react components
 const App = () => {
+  // reference jsx variable in javascript
   const buttonText = "Click me!";
+  const labelText = "Enter Name:";
   return (
     <div>
       <label className="label" htmlFor="name">
-        Enter Name:
+        {labelText}
       </label>
       <input id="name" type="text" />
 
