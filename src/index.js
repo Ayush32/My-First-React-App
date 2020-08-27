@@ -5,15 +5,17 @@
 
 //  import the react and ReactDom libraries
 import React from "react";
-import ReactDOM from "react-dom"; /* html - style=
-      background-color: "blue" */
+import ReactDOM from "react-dom";
 
+/* html - style= background-color: "blue" */
 /* jsx - {{style= backgroundColor: "blue"}} */
+
 // Create a react components
 const App = () => {
+  const buttonText = "Click me!";
   return (
     <div>
-      <label class="label" for="name">
+      <label className="label" htmlFor="name">
         Enter Name:
       </label>
       <input id="name" type="text" />
@@ -26,7 +28,7 @@ const App = () => {
           color: "white",
         }}
       >
-        Submit
+        {buttonText}
       </button>
     </div>
   );
